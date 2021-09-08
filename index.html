@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+			integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>Image Carousel</title>
+	</head>
+	<body>
+		<h1>My Astrophotography Pictures</h1>
+		<div class="carousel">
+			<div class="carousel-item visible">
+				<img src="/images/Andromeda.jpg" alt="" />
+				<div class="name">Andromeda</div>
+			</div>
+			<div class="carousel-item">
+				<img src="/images/Bode's Galaxy & Cigar Galaxy.jpg" alt="" />
+				<div class="name">Bode's Galaxy & Cigar Galaxy</div>
+			</div>
+			<div class="carousel-item">
+				<img src="/images/Horsehead & Flame Nebula.jpg" alt="" />
+				<div class="name">Flame & Horsehead Nebulae</div>
+			</div>
+			<div class="carousel-item">
+				<img src="/images/Moon.JPG" alt="" />
+				<div class="name">Moon</div>
+			</div>
+			<div class="carousel-item">
+				<img src="/images/Nightscape.jpg" alt="" />
+				<div class="name">Nightscape</div>
+			</div>
+			<div class="carousel-item">
+				<img src="/images/Orion Nebula & Running Man.jpg" alt="" />
+				<div class="name">Running Man & Orion Nebulae</div>
+			</div>
+			<div class="carousel-item">
+				<img src="/images/StarTrails.jpg" alt="" />
+				<div class="name">Star Trails</div>
+			</div>
+
+			<div class="carousel-actions">
+				<button id="prev" aria-label="prev"><<</button>
+				<button id="next" aria-label="next">>></button>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
